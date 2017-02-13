@@ -64,9 +64,10 @@ for example: `Button.left = superview.left + 10`
 
 #VSLIDE
 
-Most common problems: 
+# Most Common Problems
 - Ambiguity
 - Applying Wrong constraints
+- Mismatched Frames and Constraints
 
 #VSLIDE
 
@@ -78,4 +79,36 @@ Most common problems:
 
 #VSLIDE
 # DEMO
+
+#HSLIDE
+
+# Autolayout by Code
+
+* Original NSLayoutConstraint way.
+* Visual Format Language
+* 3rd Party
+
+#VSLIDE
+
+# BEST PRACTICE 2: Masonry
+
+#VSLIDE
+
+#DEMO
+
+#HSLIDE
+
+# Animating Autolayout
+* Playing with your heart.. I mean view constraints.
+* You can't animate on XIB.
+* Better to use Masonry.
+
+#VSLIDE
+
+# Best Practice 3: remakeConstraints
+
+#VSLIDE
+
+# DEMO
+
 
