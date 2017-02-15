@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		725CF169971A99CD982B9110 /* libPods-AutolayoutBestPracticeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DB8D11250145D897252BF8 /* libPods-AutolayoutBestPracticeTests.a */; };
+		95B8777154325C5BE696FA33 /* libPods-AutolayoutBestPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AF212AC17E29575F040AC1 /* libPods-AutolayoutBestPractice.a */; };
 		AD569E7D1E549FA300EC50D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD569E7C1E549FA300EC50D5 /* main.m */; };
 		AD569E801E549FA300EC50D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD569E7F1E549FA300EC50D5 /* AppDelegate.m */; };
 		AD569E831E549FA300EC50D5 /* ABPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD569E821E549FA300EC50D5 /* ABPMainViewController.m */; };
@@ -17,6 +19,8 @@
 		AD569EB31E54A2EB00EC50D5 /* ABPFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD569EB21E54A2EB00EC50D5 /* ABPFlowController.m */; };
 		AD569EB81E54A54700EC50D5 /* ABPXIBExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD569EB61E54A54700EC50D5 /* ABPXIBExampleViewController.m */; };
 		AD569EB91E54A54700EC50D5 /* ABPXIBExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD569EB71E54A54700EC50D5 /* ABPXIBExampleViewController.xib */; };
+		AD569EBC1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.m in Sources */ = {isa = PBXBuildFile; fileRef = AD569EBB1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.m */; };
+		AD569EBF1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = AD569EBE1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05DB8D11250145D897252BF8 /* libPods-AutolayoutBestPracticeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutolayoutBestPracticeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A30FFF92A96C27AD32302E0 /* Pods-AutolayoutBestPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutBestPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutolayoutBestPractice/Pods-AutolayoutBestPractice.release.xcconfig"; sourceTree = "<group>"; };
+		52AF212AC17E29575F040AC1 /* libPods-AutolayoutBestPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutolayoutBestPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		584CC10900AB8B30FA8D3025 /* Pods-AutolayoutBestPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutBestPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutolayoutBestPractice/Pods-AutolayoutBestPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A373C44E6118CE4D4B8DA0 /* Pods-AutolayoutBestPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutBestPracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutolayoutBestPracticeTests/Pods-AutolayoutBestPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD569E781E549FA300EC50D5 /* AutolayoutBestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutBestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD569E7C1E549FA300EC50D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD569E7E1E549FA300EC50D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +66,11 @@
 		AD569EB51E54A54700EC50D5 /* ABPXIBExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPXIBExampleViewController.h; sourceTree = "<group>"; };
 		AD569EB61E54A54700EC50D5 /* ABPXIBExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPXIBExampleViewController.m; sourceTree = "<group>"; };
 		AD569EB71E54A54700EC50D5 /* ABPXIBExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ABPXIBExampleViewController.xib; sourceTree = "<group>"; };
+		AD569EBA1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPAutolayoutMasonryExample.h; sourceTree = "<group>"; };
+		AD569EBB1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPAutolayoutMasonryExample.m; sourceTree = "<group>"; };
+		AD569EBD1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPAutolayoutAnimationExample.h; sourceTree = "<group>"; };
+		AD569EBE1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPAutolayoutAnimationExample.m; sourceTree = "<group>"; };
+		F23A7F6BCCDCB56F785E59CA /* Pods-AutolayoutBestPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutBestPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutolayoutBestPracticeTests/Pods-AutolayoutBestPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B8777154325C5BE696FA33 /* libPods-AutolayoutBestPractice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725CF169971A99CD982B9110 /* libPods-AutolayoutBestPracticeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5312D1873571B600B44FA67C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AF212AC17E29575F040AC1 /* libPods-AutolayoutBestPractice.a */,
+				05DB8D11250145D897252BF8 /* libPods-AutolayoutBestPracticeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8137D71908B532FEF42BE854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				584CC10900AB8B30FA8D3025 /* Pods-AutolayoutBestPractice.debug.xcconfig */,
+				0A30FFF92A96C27AD32302E0 /* Pods-AutolayoutBestPractice.release.xcconfig */,
+				A9A373C44E6118CE4D4B8DA0 /* Pods-AutolayoutBestPracticeTests.debug.xcconfig */,
+				F23A7F6BCCDCB56F785E59CA /* Pods-AutolayoutBestPracticeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD569E6F1E549FA200EC50D5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +127,8 @@
 				AD569E941E549FA300EC50D5 /* AutolayoutBestPracticeTests */,
 				AD569E9F1E549FA300EC50D5 /* AutolayoutBestPracticeUITests */,
 				AD569E791E549FA300EC50D5 /* Products */,
+				8137D71908B532FEF42BE854 /* Pods */,
+				5312D1873571B600B44FA67C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +209,8 @@
 		AD569EB01E54A0BA00EC50D5 /* AutolayoutMasonryExample */ = {
 			isa = PBXGroup;
 			children = (
+				AD569EBA1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.h */,
+				AD569EBB1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.m */,
 			);
 			name = AutolayoutMasonryExample;
 			sourceTree = "<group>";
@@ -178,6 +218,8 @@
 		AD569EB41E54A4E700EC50D5 /* AutolayoutAnimationExample */ = {
 			isa = PBXGroup;
 			children = (
+				AD569EBD1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.h */,
+				AD569EBE1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.m */,
 			);
 			name = AutolayoutAnimationExample;
 			sourceTree = "<group>";
@@ -189,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD569EA51E549FA300EC50D5 /* Build configuration list for PBXNativeTarget "AutolayoutBestPractice" */;
 			buildPhases = (
+				268B9A9D320CD756BF695424 /* [CP] Check Pods Manifest.lock */,
 				AD569E741E549FA200EC50D5 /* Sources */,
 				AD569E751E549FA200EC50D5 /* Frameworks */,
 				AD569E761E549FA200EC50D5 /* Resources */,
+				ECC3F90DC2EA4CD6BC56A3EA /* [CP] Embed Pods Frameworks */,
+				E2A252057CDD81E9580FD36A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD569EA81E549FA300EC50D5 /* Build configuration list for PBXNativeTarget "AutolayoutBestPracticeTests" */;
 			buildPhases = (
+				4CBADD0A1B60DBCBAB12BD96 /* [CP] Check Pods Manifest.lock */,
 				AD569E8D1E549FA300EC50D5 /* Sources */,
 				AD569E8E1E549FA300EC50D5 /* Frameworks */,
 				AD569E8F1E549FA300EC50D5 /* Resources */,
+				0F2E469011A4F08A23FDA353 /* [CP] Embed Pods Frameworks */,
+				137C71D6955674A1E8142C6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,6 +358,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F2E469011A4F08A23FDA353 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutolayoutBestPracticeTests/Pods-AutolayoutBestPracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		137C71D6955674A1E8142C6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutolayoutBestPracticeTests/Pods-AutolayoutBestPracticeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		268B9A9D320CD756BF695424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CBADD0A1B60DBCBAB12BD96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A252057CDD81E9580FD36A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutolayoutBestPractice/Pods-AutolayoutBestPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC3F90DC2EA4CD6BC56A3EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutolayoutBestPractice/Pods-AutolayoutBestPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD569E741E549FA200EC50D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -319,7 +460,9 @@
 				AD569EB81E54A54700EC50D5 /* ABPXIBExampleViewController.m in Sources */,
 				AD569EB31E54A2EB00EC50D5 /* ABPFlowController.m in Sources */,
 				AD569E801E549FA300EC50D5 /* AppDelegate.m in Sources */,
+				AD569EBF1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.m in Sources */,
 				AD569E7D1E549FA300EC50D5 /* main.m in Sources */,
+				AD569EBC1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +599,7 @@
 		};
 		AD569EA61E549FA300EC50D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584CC10900AB8B30FA8D3025 /* Pods-AutolayoutBestPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutolayoutBestPractice/Info.plist;
@@ -468,6 +612,7 @@
 		};
 		AD569EA71E549FA300EC50D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A30FFF92A96C27AD32302E0 /* Pods-AutolayoutBestPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutolayoutBestPractice/Info.plist;
@@ -480,6 +625,7 @@
 		};
 		AD569EA91E549FA300EC50D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A373C44E6118CE4D4B8DA0 /* Pods-AutolayoutBestPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AutolayoutBestPracticeTests/Info.plist;
@@ -492,6 +638,7 @@
 		};
 		AD569EAA1E549FA300EC50D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23A7F6BCCDCB56F785E59CA /* Pods-AutolayoutBestPracticeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AutolayoutBestPracticeTests/Info.plist;
@@ -543,6 +690,7 @@
 				AD569EA71E549FA300EC50D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD569EA81E549FA300EC50D5 /* Build configuration list for PBXNativeTarget "AutolayoutBestPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +699,7 @@
 				AD569EAA1E549FA300EC50D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD569EAB1E549FA300EC50D5 /* Build configuration list for PBXNativeTarget "AutolayoutBestPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +708,7 @@
 				AD569EAD1E549FA300EC50D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

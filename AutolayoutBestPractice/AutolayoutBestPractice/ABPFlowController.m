@@ -8,6 +8,8 @@
 
 #import "ABPFlowController.h"
 #import "ABPXIBExampleViewController.h"
+#import "ABPAutolayoutMasonryExample.h"
+#import "ABPAutolayoutAnimationExample.h"
 
 #import <UIKit/UIKit.h>
 
@@ -31,26 +33,27 @@
 
 - (void)gotoScreenWithIndex:(NSInteger)index
 {
+    UIViewController *example;
     switch (index) {
         case 0:
-        {
-            ABPXIBExampleViewController *example = [[ABPXIBExampleViewController alloc]
-                                                    initWithNibName:NSStringFromClass([ABPXIBExampleViewController class])
-                                                             bundle:nil];
-            [self.navigationController pushViewController:example
-                                                 animated:YES];
+            example = [[ABPXIBExampleViewController alloc]
+                        initWithNibName:NSStringFromClass([ABPXIBExampleViewController class])
+                                 bundle:nil];
             break;
-        }
         case 1:
-        {
-
+            example = [ABPAutolayoutMasonryExample new];
             break;
-        }
+
         case 2:
+            example = [ABPAutolayoutAnimationExample new];
+            break;
 
         default:
             break;
     }
+
+    [self.navigationController pushViewController:example
+                                         animated:YES];
 }
 
 @end

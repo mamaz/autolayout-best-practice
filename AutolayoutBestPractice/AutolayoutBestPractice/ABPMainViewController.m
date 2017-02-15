@@ -73,7 +73,7 @@
             cellText = @"Masonry Example";
             break;
         case 2:
-            cellText = @"Autolayout animating";
+            cellText = @"Autolayout Animating";
             break;
 
         default:
