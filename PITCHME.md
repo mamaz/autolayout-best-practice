@@ -8,13 +8,11 @@
 # Agenda
 0. Why Autolayout?
 1. Frame and Bounds vs Constraints
-2. Relation with other views
-3. Best Practice 1: XIB
-4. Autolayout by Code
-5. Best Practice 2: Masonry
-6. Animating Autolayout
-7. Best Practice 3: remakeConstraints
-9. StackView
+2. Best Practice 1: XIB
+3. Autolayout by Code
+4. Best Practice 2: Masonry
+5. Animating Autolayout
+6. Best Practice 3: remakeConstraints
 
 #HSLIDE
 # Why Autolayout?
@@ -85,12 +83,12 @@ for example: `Button.left = superview.left + 10`
 #VSLIDE
 
 # Best Practice 1: XIB
-
 - Build Relationship with nearest view first.
-- Layout with center point or standard padding point.
+- Layout with center point or standard padding numbers.
 - Adjust content hugging and compression resistance, if needed.
 
 #VSLIDE
+
 # DEMO
 
 #HSLIDE
@@ -113,7 +111,8 @@ for example: `Button.left = superview.left + 10`
 
 # Animating Autolayout
 * Playing with your heart.. I mean view constraints.
-* Better to use Masonry.
+* Better to use Masonry's remakeConstraints.
+* Even better to use non UIAnimation, eg: JHChainableAnimation or POP.
 
 #VSLIDE
 
@@ -125,4 +124,18 @@ for example: `Button.left = superview.left + 10`
 
 #HSLIDE
 
-# Stackview
+# Links
+
+GitHub:
+* https://github.com/SnapKit/Masonry
+* https://github.com/rs/SDWebImage
+* https://github.com/jhurray/JHChainableAnimations
+* https://github.com/facebook/pop
+
+Link to this slide and source code: https://github.com/mamaz/autolayout-best-practice
+
+
+#HSLIDE
+
+# Thank You
+## Q/A Time!
