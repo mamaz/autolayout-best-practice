@@ -10,31 +10,31 @@
 1. Frame and Bounds vs Constraints
 2. Relation with other views
 3. Best Practice 1: XIB
-4. Autolayout by Code 
-5. Best Practice 2: Masonry 
-6. Animating Autolayout 
+4. Autolayout by Code
+5. Best Practice 2: Masonry
+6. Animating Autolayout
 7. Best Practice 3: remakeConstraints
 9. StackView
 
 #HSLIDE
 # Why Autolayout?
 
-The first thing that I had in mind: 
-- handle device rotations 
-- support for iPad.
+The first thing that I had in mind:
+- to handle device rotations
+- to support iPad
 
 #VSLIDE
 # I Was WRONG
 
 #VSLIDE
 
-Apple releases newer and **bigger** devices:
-- iPhone 6 
-- iPhone 6Plus 
+Apple releases newer and **bigger** iPhones:
+- iPhone 6
+- iPhone 6 Plus
 - iPhone 7 and
-- iPhone 7Plus
+- iPhone 7 Plus
 
-and lots of iPad varians: 
+and lots of iPad varian:
 - iPad
 - iPad Pro
 - iPad Air
@@ -42,7 +42,10 @@ and lots of iPad varians:
 
 #VSLIDE
 
-# Spring and Strurts: **IRRELEVANT**
+# Spring and Struts --> **IRRELEVANT**
+
+* harder to maintain device [orientation](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
+* tedious to count the exact coordinate
 
 #HSLIDE
 
@@ -50,39 +53,42 @@ and lots of iPad varians:
 
 #VSLIDE
 ## Frame and Bounds
-- Design by coordinates: "I want a Button with coordinate (10, 10) with width 200 and height 30, with 'Get Lost!' written on it"
+- Design by coordinates: "I want a Button with coordinate (10, 10) with width 200 and height 30, with 'OK Siri!' written on it"
 - Hard to maintain for supporting multiple devices with different form factors.
-- Not the same accross devices
- 
+- Not the same across devices and screen orientations.
+- Difference between frames and bounds.
+
 #VSLIDE
 ## Constraints
-- Design by Intents: "I want a Button at the with left padding 10 and top padding 10 with `Get Lost!' written on it"
-- Based on constraints of a view related to its superview and surounding views.
-- It's based on Linear Function `y = ax + b` 
+- Design by Intents: "I want a Button at the with left padding 10 and top padding 10 with `OK Siri!' written on it"
+- Based on constraints of a view related to its superview and surrounding views.
+- It's based on Linear Function `y = ax + b`
 for example: `Button.left = superview.left + 10`
-- Will be consistent accross devices.
+- Will be consistent across devices.
 
-#HSLIDE
+#VSLIDE
 
-# Relation with Other Views
+# OH: IT MEANS THAT AUTOLAYOUT IS AWESOME?
 
-- Autolayout is basically layouting relative to other view.
-- Needs to have clear constraints, otherwise ambiguity occurs.
+#VSLIDE
+
+# YES, WITH BETTER XCODE TOOLS!
 
 #VSLIDE
 
 # Most Common Problems
-- Ambiguity
-- Applying Wrong constraints
-- Mismatched Frames and Constraints
+- Need sufficient constraints: x axis, y axis, and / or width and height.
+- Ambiguity.
+- Applying Wrong constraints.
+- Mismatched Frames and Constraints.
 
 #VSLIDE
 
 # Best Practice 1: XIB
 
 - Build Relationship with nearest view first.
-- Layout with center point.
-- Adjust compression resistance and content hugging.
+- Layout with center point or standard padding point.
+- Adjust content hugging and compression resistance, if needed.
 
 #VSLIDE
 # DEMO
@@ -92,8 +98,8 @@ for example: `Button.left = superview.left + 10`
 # Autolayout by Code
 
 * Original NSLayoutConstraint way.
-* Visual Format Language
-* 3rd Party
+* Visual Format Language.
+* 3rd Party, example: Masonry
 
 #VSLIDE
 
@@ -107,7 +113,6 @@ for example: `Button.left = superview.left + 10`
 
 # Animating Autolayout
 * Playing with your heart.. I mean view constraints.
-* You can't animate on XIB.
 * Better to use Masonry.
 
 #VSLIDE
@@ -121,5 +126,3 @@ for example: `Button.left = superview.left + 10`
 #HSLIDE
 
 # Stackview
-
-
