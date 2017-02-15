@@ -1,6 +1,6 @@
 #HSLIDE
-# Autolayout: Best Practice
-## Hisma Mulya S (mamaz)
+## Autolayout Best Practice
+### Hisma Mulya S (mamaz)
 ### [@hismamaz](http://twitter.com/hismamaz)
 ### [facebook.com/hisma.mulya](https://facebook.com/hisma.mulya)
 
@@ -40,7 +40,7 @@ and lots of iPad varian:
 
 #VSLIDE
 
-# Spring and Struts --> **IRRELEVANT**
+## Spring and Struts --> **IRRELEVANT**
 
 * harder to maintain device [orientation](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 * tedious to count the exact coordinate
