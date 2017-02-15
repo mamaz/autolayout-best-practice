@@ -7,13 +7,10 @@
 //
 
 #import "ABPAutolayoutMasonryExample.h"
+#import "Constants.h"
 
 #import <Masonry/Masonry.h>
 #import <SDWebImage/UIImageView+WebCache.h>
-
-static NSString *const kUrl = @"https://cdnb.artstation.com/p/assets/images/images/001/147/237/large/randall-whiteis-motoko.jpg?1441038499";
-static CGFloat const kWidth = 200.0f;
-static CGFloat const kHeight = 300.0f;
 
 @interface ABPAutolayoutMasonryExample ()
 

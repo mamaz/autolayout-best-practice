@@ -70,6 +70,7 @@
 		AD569EBB1E54BAE600EC50D5 /* ABPAutolayoutMasonryExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPAutolayoutMasonryExample.m; sourceTree = "<group>"; };
 		AD569EBD1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPAutolayoutAnimationExample.h; sourceTree = "<group>"; };
 		AD569EBE1E54BE3200EC50D5 /* ABPAutolayoutAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPAutolayoutAnimationExample.m; sourceTree = "<group>"; };
+		AD569EC01E54DDD400EC50D5 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		F23A7F6BCCDCB56F785E59CA /* Pods-AutolayoutBestPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutBestPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutolayoutBestPracticeTests/Pods-AutolayoutBestPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,14 +146,15 @@
 		AD569E7A1E549FA300EC50D5 /* AutolayoutBestPractice */ = {
 			isa = PBXGroup;
 			children = (
-				AD569EB41E54A4E700EC50D5 /* AutolayoutAnimationExample */,
-				AD569EB01E54A0BA00EC50D5 /* AutolayoutMasonryExample */,
-				AD569EAF1E54A0A200EC50D5 /* XIBExample */,
-				AD569EAE1E54A08A00EC50D5 /* ABPFlowController */,
+				AD569EC01E54DDD400EC50D5 /* Constants.h */,
 				AD569E7E1E549FA300EC50D5 /* AppDelegate.h */,
 				AD569E7F1E549FA300EC50D5 /* AppDelegate.m */,
 				AD569E811E549FA300EC50D5 /* ABPMainViewController.h */,
 				AD569E821E549FA300EC50D5 /* ABPMainViewController.m */,
+				AD569EB41E54A4E700EC50D5 /* AutolayoutAnimationExample */,
+				AD569EB01E54A0BA00EC50D5 /* AutolayoutMasonryExample */,
+				AD569EAF1E54A0A200EC50D5 /* XIBExample */,
+				AD569EAE1E54A08A00EC50D5 /* ABPFlowController */,
 				AD569E871E549FA300EC50D5 /* Assets.xcassets */,
 				AD569E891E549FA300EC50D5 /* LaunchScreen.storyboard */,
 				AD569E8C1E549FA300EC50D5 /* Info.plist */,

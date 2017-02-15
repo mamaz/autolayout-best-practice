@@ -70,7 +70,7 @@
             cellText = @"XIB Example";
             break;
         case 1:
-            cellText = @"Masonry Example";
+            cellText = @"Autolayout by Code Example";
             break;
         case 2:
             cellText = @"Autolayout Animating";
